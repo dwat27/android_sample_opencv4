@@ -11,7 +11,7 @@ developed based on the [opencv][1]
 ### About Build
 * NDK
 * CMake
-* [source][4]
+* [Source][4]
 
 ### About Author:
 * Author: shengjunhu
@@ -22,7 +22,7 @@ developed based on the [opencv][1]
 ### About License
 ```
 Copyright (c) 2020 shengjunhu
-Please compliance with the libyuv license
+Please compliance with the opencv license
 ```
 
 [1]: https://github.com/opencv/opencv
