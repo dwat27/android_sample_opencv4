@@ -1,0 +1,3 @@
+rootProject.name = "android_sample_opencv4"
+include ':sample_opencv4'
+include ':lib_opencv4'
