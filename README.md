@@ -3,15 +3,17 @@ android sample of opencv4
 developed based on the [opencv][1]
 
 ### Screenshot
-<img src="doc/img/screenshot_1.png" width="200"/> <img src="doc/img/screenshot_2.png" width="200"/> <img src="doc/img/screenshot_3.png" width="200"/>
+<img src="doc/img/screenshot_1.png" width="200px"/> <img src="doc/img/screenshot_2.png" width="200px"/> <img src="doc/img/screenshot_3.png" width="200px"/>
 
 ### Sample
-[![APK][2]][3]
+| <img src="doc/img/qr_apk.png" width="260px" /> |
+| :--------:                      |
+| Scan QR code or [Download][2]   |
 
 ### About Build
 * NDK
 * CMake
-* [Source][4]
+* [Source][3]
 
 ### About Author:
 * Author: shengjunhu
@@ -22,10 +24,9 @@ developed based on the [opencv][1]
 ### About License
 ```
 Copyright (c) 2020 shengjunhu
-Please compliance with the opencv license
+Please compliance with the OpenCV license
 ```
 
 [1]: https://github.com/opencv/opencv
-[2]: doc/img/android_logo.png
-[3]: doc/apk/Opencv4_v20092719_release.apk
-[4]: doc/file/opencv-4.4.0.zip
+[2]: https://github.com/shengjunhu/android_sample_opencv4/raw/master/doc/apk/sample_opencv4_v20092719_release.apk
+[3]: doc/file/opencv-4.4.0.zip

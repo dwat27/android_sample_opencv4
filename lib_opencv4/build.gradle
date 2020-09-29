@@ -9,9 +9,9 @@ android {
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
 
-        ndk { abiFilters "armeabi-v7a" ,"arm64-v8a"}
         testInstrumentationRunner rootProject.ext.dependencies.testInstrumentationRunner
         consumerProguardFiles "consumer-rules.pro"
+        ndk { abiFilters "armeabi-v7a" ,"arm64-v8a"}
     }
 
     buildTypes {

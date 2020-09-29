@@ -10,8 +10,8 @@ android {
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
 
-        ndk { abiFilters "armeabi-v7a", "arm64-v8a" }
         testInstrumentationRunner rootProject.ext.dependencies.testInstrumentationRunner
+        ndk { abiFilters "armeabi-v7a", "arm64-v8a" }
     }
 
     signingConfigs {
@@ -59,7 +59,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "Opencv4_v${variant.versionCode}_${variant.buildType.name}.apk"
+            outputFileName = "sample_opencv4_v${variant.versionCode}_${variant.buildType.name}.apk"
         }
     }
 
